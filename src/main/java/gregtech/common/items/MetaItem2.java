@@ -165,6 +165,8 @@ public class MetaItem2 extends MaterialMetaItem {
 
         TURBINE_ROTOR = addItem(508, "turbine_rotor").addComponents(new TurbineRotorBehavior());
         COVER_FACADE = addItem(509, "cover.facade").addComponents(new FacadeItem()).disableModelLoading();
+        DRACONIUM_BOULE = addItem(510, "boule.draconium");
+        DRACONIUM_WAFER = addItem(511, "wafer.draconium");
 
         FLUID_REGULATORS[0] = FLUID_REGULATOR_LV = addItem(700, "fluid.regulator.lv");
         FLUID_REGULATORS[1] = FLUID_REGULATOR_MV = addItem(701, "fluid.regulator.mv");
@@ -174,6 +176,7 @@ public class MetaItem2 extends MaterialMetaItem {
         FLUID_REGULATORS[5] = FLUID_REGULATOR_LUV = addItem(705, "fluid.regulator.luv");
         FLUID_REGULATORS[6] = FLUID_REGULATOR_ZPM = addItem(706, "fluid.regulator.zpm");
         FLUID_REGULATORS[7] = FLUID_REGULATOR_UV = addItem(707, "fluid.regulator.uv");
+        FLUID_REGULATORS[8] = FLUID_REGULATOR_MAX = addItem(708, "fluid.regulator.max");
     }
 
     public void registerRecipes() {

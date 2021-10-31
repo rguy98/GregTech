@@ -396,6 +396,8 @@ public class MetaTileEntityLoader {
         ModHandler.addShapedRecipe("stainless_steel_chest", MetaTileEntities.STAINLESS_STEEL_CHEST.getStackForm(), "XXX", "X X", "XXX", 'X', new UnificationEntry(OrePrefix.plate, Materials.StainlessSteel));
         ModHandler.addShapedRecipe("titanium_chest", MetaTileEntities.TITANIUM_CHEST.getStackForm(), "XXX", "X X", "XXX", 'X', new UnificationEntry(OrePrefix.plate, Materials.Titanium));
         ModHandler.addShapedRecipe("tungsten_steel_chest", MetaTileEntities.TUNGSTENSTEEL_CHEST.getStackForm(), "XXX", "X X", "XXX", 'X', new UnificationEntry(OrePrefix.plate, Materials.TungstenSteel));
+        ModHandler.addShapedRecipe("osmium_chest", MetaTileEntities.OSMIUM_CHEST.getStackForm(), "XXX", "X X", "XXX", 'X', new UnificationEntry(OrePrefix.plate, Materials.Osmium));
+        ModHandler.addShapedRecipe("darmstadtium_chest", MetaTileEntities.DARMSTADTIUM_CHEST.getStackForm(), "XXX", "X X", "XXX", 'X', new UnificationEntry(OrePrefix.plate, Materials.Darmstadtium));
 
         ModHandler.addShapedRecipe("wooden_tank", MetaTileEntities.WOODEN_TANK.getStackForm(), "XYX", "Y Y", "XYX", 'X', new UnificationEntry(OrePrefix.plank, Materials.Wood), 'Y', new UnificationEntry(OrePrefix.blockGlass));
         ModHandler.addShapedRecipe("bronze_tank", MetaTileEntities.BRONZE_TANK.getStackForm(), "XYX", "Y Y", "XYX", 'X', new UnificationEntry(OrePrefix.plate, Materials.Bronze), 'Y', new UnificationEntry(OrePrefix.blockGlass));
@@ -403,6 +405,8 @@ public class MetaTileEntityLoader {
         ModHandler.addShapedRecipe("stainless_steel_tank", MetaTileEntities.STAINLESS_STEEL_TANK.getStackForm(), "XYX", "Y Y", "XYX", 'X', new UnificationEntry(OrePrefix.plate, Materials.StainlessSteel), 'Y', new UnificationEntry(OrePrefix.blockGlass));
         ModHandler.addShapedRecipe("titanium_tank", MetaTileEntities.TITANIUM_TANK.getStackForm(), "XYX", "Y Y", "XYX", 'X', new UnificationEntry(OrePrefix.plate, Materials.Titanium), 'Y', new UnificationEntry(OrePrefix.blockGlass));
         ModHandler.addShapedRecipe("tungsten_steel_tank", MetaTileEntities.TUNGSTENSTEEL_TANK.getStackForm(), "XYX", "Y Y", "XYX", 'X', new UnificationEntry(OrePrefix.plate, Materials.TungstenSteel), 'Y', new UnificationEntry(OrePrefix.blockGlass));
+        ModHandler.addShapedRecipe("osmium_tank", MetaTileEntities.OSMIUM_TANK.getStackForm(), "XYX", "Y Y", "XYX", 'X', new UnificationEntry(OrePrefix.plate, Materials.Osmium), 'Y', new UnificationEntry(OrePrefix.blockGlass));
+        ModHandler.addShapedRecipe("darmstadtium_tank", MetaTileEntities.DARMSTADTIUM_TANK.getStackForm(), "XYX", "Y Y", "XYX", 'X', new UnificationEntry(OrePrefix.plate, Materials.Darmstadtium), 'Y', new UnificationEntry(OrePrefix.blockGlass));
 
         ModHandler.addShapedRecipe("tesla_coil", MetaTileEntities.TESLA_COIL.getStackForm(), "XXX", "YHY", "XXX", 'X', new UnificationEntry(OrePrefix.wireGtQuadruple, Materials.Copper), 'Y', MetaItems.EMITTER_MV, 'H', MetaTileEntities.HULL[GTValues.MV].getStackForm());
     }

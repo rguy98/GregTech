@@ -45,6 +45,10 @@ public enum OrePrefix {
     crushedPurified("Purified Ores", -1, null, MaterialIconType.crushedPurified, ENABLE_UNIFICATION | DISALLOW_RECYCLING, (mat) -> mat instanceof DustMaterial && mat.hasFlag(GENERATE_ORE)),
     crushed("Crushed Ores", -1, null, MaterialIconType.crushed, ENABLE_UNIFICATION | DISALLOW_RECYCLING, (mat) -> mat instanceof DustMaterial && mat.hasFlag(GENERATE_ORE)),
 
+    crushedCharged("Charged Ores", -1, null, MaterialIconType.crushedCharged, ENABLE_UNIFICATION | DISALLOW_RECYCLING, (mat) -> mat instanceof DustMaterial && mat.hasFlag(GENERATE_ORE)),
+    crushedImbibed("Imbibed Ores", -1, null, MaterialIconType.crushedImbibed, ENABLE_UNIFICATION | DISALLOW_RECYCLING, (mat) -> mat instanceof DustMaterial && mat.hasFlag(GENERATE_ORE)),
+    crushedEnriched("Enriched Ores", -1, null, MaterialIconType.crushedEnriched, ENABLE_UNIFICATION | DISALLOW_RECYCLING, (mat) -> mat instanceof DustMaterial && mat.hasFlag(GENERATE_ORE)),
+
     shard("Crystallised Shards", -1, null, null, ENABLE_UNIFICATION | DISALLOW_RECYCLING, null), // Introduced by Mekanism
     clump("Clumps", -1, null, null, ENABLE_UNIFICATION | DISALLOW_RECYCLING, null),
     reduced("Reduced Gravels", -1, null, null, ENABLE_UNIFICATION | DISALLOW_RECYCLING, null),
@@ -154,7 +158,7 @@ public enum OrePrefix {
      * Elite (Tier 6)
      * Master (Tier 7)
      * Ultimate (Tier 8)
-     * Infinite
+     * Infinite (Tier 9)
      */
     batterySingleUse("Single Use Batteries", -1, null, null, DISALLOW_RECYCLING, null),
     battery("Reusable Batteries", -1, null, null, DISALLOW_RECYCLING, null), // Introduced by Calclavia

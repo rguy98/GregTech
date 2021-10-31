@@ -65,7 +65,7 @@ public final class MetaItems {
     public static MetaItem<?>.MetaValueItem SHAPE_MOLD_GEAR_SMALL;
     public static MetaItem<?>.MetaValueItem SHAPE_MOLD_ROTOR;
 
-    public static MetaItem<?>.MetaValueItem[] SHAPE_EXTRUDERS = new MetaValueItem[22];
+    public static MetaItem<?>.MetaValueItem[] SHAPE_EXTRUDERS = new MetaValueItem[23];
     public static MetaItem<?>.MetaValueItem SHAPE_EXTRUDER_PLATE;
     public static MetaItem<?>.MetaValueItem SHAPE_EXTRUDER_ROD;
     public static MetaItem<?>.MetaValueItem SHAPE_EXTRUDER_BOLT;
@@ -88,6 +88,7 @@ public final class MetaItems {
     public static MetaItem<?>.MetaValueItem SHAPE_EXTRUDER_SAW;
     public static MetaItem<?>.MetaValueItem SHAPE_EXTRUDER_GEAR;
     public static MetaItem<?>.MetaValueItem SHAPE_EXTRUDER_BOTTLE;
+    public static MetaItem<?>.MetaValueItem SHAPE_EXTRUDER_GEAR_SMALL;
 
     public static MetaItem<?>.MetaValueItem SPRAY_EMPTY;
 
@@ -148,6 +149,7 @@ public final class MetaItems {
     public static MetaItem<?>.MetaValueItem ELECTRIC_MOTOR_LUV;
     public static MetaItem<?>.MetaValueItem ELECTRIC_MOTOR_ZPM;
     public static MetaItem<?>.MetaValueItem ELECTRIC_MOTOR_UV;
+    public static MetaItem<?>.MetaValueItem ELECTRIC_MOTOR_MAX;
 
     public static MetaItem<?>.MetaValueItem ELECTRIC_PUMP_LV;
     public static MetaItem<?>.MetaValueItem ELECTRIC_PUMP_MV;
@@ -157,8 +159,9 @@ public final class MetaItems {
     public static MetaItem<?>.MetaValueItem ELECTRIC_PUMP_LUV;
     public static MetaItem<?>.MetaValueItem ELECTRIC_PUMP_ZPM;
     public static MetaItem<?>.MetaValueItem ELECTRIC_PUMP_UV;
+    public static MetaItem<?>.MetaValueItem ELECTRIC_PUMP_MAX;
 
-    public static final MetaItem<?>.MetaValueItem[] PUMPS = new MetaValueItem[8];
+    public static final MetaItem<?>.MetaValueItem[] PUMPS = new MetaValueItem[9];
 
     public static MetaItem<?>.MetaValueItem FLUID_REGULATOR_LV;
     public static MetaItem<?>.MetaValueItem FLUID_REGULATOR_MV;
@@ -168,8 +171,9 @@ public final class MetaItems {
     public static MetaItem<?>.MetaValueItem FLUID_REGULATOR_LUV;
     public static MetaItem<?>.MetaValueItem FLUID_REGULATOR_ZPM;
     public static MetaItem<?>.MetaValueItem FLUID_REGULATOR_UV;
+    public static MetaItem<?>.MetaValueItem FLUID_REGULATOR_MAX;
 
-    public static final MetaItem<?>.MetaValueItem[] FLUID_REGULATORS = new MetaValueItem[8];
+    public static final MetaItem<?>.MetaValueItem[] FLUID_REGULATORS = new MetaValueItem[9];
 
     public static MetaItem<?>.MetaValueItem FLUID_FILTER;
 
@@ -183,6 +187,7 @@ public final class MetaItems {
     public static MetaItem<?>.MetaValueItem CONVEYOR_MODULE_LUV;
     public static MetaItem<?>.MetaValueItem CONVEYOR_MODULE_ZPM;
     public static MetaItem<?>.MetaValueItem CONVEYOR_MODULE_UV;
+    public static MetaItem<?>.MetaValueItem CONVEYOR_MODULE_MAX;
 
     public static MetaItem<?>.MetaValueItem ELECTRIC_PISTON_LV;
     public static MetaItem<?>.MetaValueItem ELECTRIC_PISTON_MV;
@@ -192,6 +197,7 @@ public final class MetaItems {
     public static MetaItem<?>.MetaValueItem ELECTRIC_PISTON_LUV;
     public static MetaItem<?>.MetaValueItem ELECTRIC_PISTON_ZPM;
     public static MetaItem<?>.MetaValueItem ELECTRIC_PISTON_UV;
+    public static MetaItem<?>.MetaValueItem ELECTRIC_PISTON_MAX;
 
     public static MetaItem<?>.MetaValueItem ROBOT_ARM_LV;
     public static MetaItem<?>.MetaValueItem ROBOT_ARM_MV;
@@ -201,6 +207,7 @@ public final class MetaItems {
     public static MetaItem<?>.MetaValueItem ROBOT_ARM_LUV;
     public static MetaItem<?>.MetaValueItem ROBOT_ARM_ZPM;
     public static MetaItem<?>.MetaValueItem ROBOT_ARM_UV;
+    public static MetaItem<?>.MetaValueItem ROBOT_ARM_MAX;
 
     public static MetaItem<?>.MetaValueItem FIELD_GENERATOR_LV;
     public static MetaItem<?>.MetaValueItem FIELD_GENERATOR_MV;
@@ -210,6 +217,7 @@ public final class MetaItems {
     public static MetaItem<?>.MetaValueItem FIELD_GENERATOR_LUV;
     public static MetaItem<?>.MetaValueItem FIELD_GENERATOR_ZPM;
     public static MetaItem<?>.MetaValueItem FIELD_GENERATOR_UV;
+    public static MetaItem<?>.MetaValueItem FIELD_GENERATOR_MAX;
 
     public static MetaItem<?>.MetaValueItem EMITTER_LV;
     public static MetaItem<?>.MetaValueItem EMITTER_MV;
@@ -219,6 +227,7 @@ public final class MetaItems {
     public static MetaItem<?>.MetaValueItem EMITTER_LUV;
     public static MetaItem<?>.MetaValueItem EMITTER_ZPM;
     public static MetaItem<?>.MetaValueItem EMITTER_UV;
+    public static MetaItem<?>.MetaValueItem EMITTER_MAX;
 
     public static MetaItem<?>.MetaValueItem SENSOR_LV;
     public static MetaItem<?>.MetaValueItem SENSOR_MV;
@@ -228,16 +237,19 @@ public final class MetaItems {
     public static MetaItem<?>.MetaValueItem SENSOR_LUV;
     public static MetaItem<?>.MetaValueItem SENSOR_ZPM;
     public static MetaItem<?>.MetaValueItem SENSOR_UV;
+    public static MetaItem<?>.MetaValueItem SENSOR_MAX;
 
     public static MetaItem<?>.MetaValueItem TOOL_DATA_STICK;
     public static MetaItem<?>.MetaValueItem TOOL_DATA_ORB;
 
     public static MetaItem<?>.MetaValueItem GLOWSTONE_BOULE;
     public static MetaItem<?>.MetaValueItem NAQUADAH_BOULE;
+    public static MetaItem<?>.MetaValueItem DRACONIUM_BOULE;
     public static MetaItem<?>.MetaValueItem SILICON_BOULE;
     public static MetaItem<?>.MetaValueItem SILICON_WAFER;
     public static MetaItem<?>.MetaValueItem GLOWSTONE_WAFER;
     public static MetaItem<?>.MetaValueItem NAQUADAH_WAFER;
+    public static MetaItem<?>.MetaValueItem DRACONIUM_WAFER;
 
     public static MetaItem<?>.MetaValueItem ADVANCED_SYSTEM_ON_CHIP_WAFER;
     public static MetaItem<?>.MetaValueItem INTEGRATED_LOGIC_CIRCUIT_WAFER;

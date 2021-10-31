@@ -297,6 +297,7 @@ metaitem.electric.motor.iv.name=Electric Motor (IV)
 metaitem.electric.motor.luv.name=Electric Motor (LuV)
 metaitem.electric.motor.zpm.name=Electric Motor (ZPM)
 metaitem.electric.motor.uv.name=Electric Motor (UV)
+metaitem.electric.motor.max.name=Electric Motor (MAX)
 
 metaitem.electric.pump.lv.name=Electric Pump (LV)
 metaitem.electric.pump.lv.tooltip=1280 mb/sec (as Cover)
@@ -314,6 +315,8 @@ metaitem.electric.pump.zpm.name=Electric Pump (ZPM)
 metaitem.electric.pump.zpm.tooltip=5,242,880 mb/sec (as Cover)
 metaitem.electric.pump.uv.name=Electric Pump (UV)
 metaitem.electric.pump.uv.tooltip=20,971,520 mb/sec (as Cover)
+metaitem.electric.pump.max.name=Electric Pump (MAX)
+metaitem.electric.pump.max.tooltip=20,971,520 mb/sec (as Cover)
 
 metaitem.fluid.regulator.lv.name=Fluid Regulator (LV)
 metaitem.fluid.regulator.mv.name=Fluid Regulator (MV)
@@ -323,6 +326,7 @@ metaitem.fluid.regulator.iv.name=Fluid Regulator (IV)
 metaitem.fluid.regulator.luv.name=Fluid Regulator (LuV)
 metaitem.fluid.regulator.zpm.name=Fluid Regulator (ZPM)
 metaitem.fluid.regulator.uv.name=Fluid Regulator (UV)
+metaitem.fluid.regulator.max.name=Fluid Regulator (MAX)
 metaitem.fluid.regulator.lv.tooltip=1280 mb/sec (as Cover)
 metaitem.fluid.regulator.mv.tooltip=5120 mb/sec (as Cover)
 metaitem.fluid.regulator.hv.tooltip=20,480 mb/sec (as Cover)
@@ -331,6 +335,7 @@ metaitem.fluid.regulator.iv.tooltip=327,680 mb/sec (as Cover)
 metaitem.fluid.regulator.luv.tooltip=1,310,720 mb/sec (as Cover)
 metaitem.fluid.regulator.zpm.tooltip=5,242,880 mb/sec (as Cover)
 metaitem.fluid.regulator.uv.tooltip=20,971,520 mb/sec (as Cover)
+metaitem.fluid.regulator.max.tooltip=83,886,080 mb/sec (as Cover)
 
 metaitem.conveyor.module.lv.name=Conveyor Module (LV)
 metaitem.conveyor.module.lv.tooltip=8 Items every second (as Cover)
@@ -339,15 +344,17 @@ metaitem.conveyor.module.mv.tooltip=32 Items every second (as Cover)
 metaitem.conveyor.module.hv.name=Conveyor Module (HV)
 metaitem.conveyor.module.hv.tooltip=64 Items every second (as Cover)
 metaitem.conveyor.module.ev.name=Conveyor Module (EV)
-metaitem.conveyor.module.ev.tooltip=3 Stacks every second (as Cover)
+metaitem.conveyor.module.ev.tooltip=2 Stacks every second (as Cover)
 metaitem.conveyor.module.iv.name=Conveyor Module (IV)
-metaitem.conveyor.module.iv.tooltip=8 Stacks every second (as Cover)
+metaitem.conveyor.module.iv.tooltip=4 Stacks every second (as Cover)
 metaitem.conveyor.module.luv.name=Conveyor Module (LuV)
-metaitem.conveyor.module.luv.tooltip=16 Stacks every second (as Cover)
+metaitem.conveyor.module.luv.tooltip=8 Stacks every second (as Cover)
 metaitem.conveyor.module.zpm.name=Conveyor Module (ZPM)
 metaitem.conveyor.module.zpm.tooltip=16 Stacks every second (as Cover)
 metaitem.conveyor.module.uv.name=Conveyor Module (UV)
-metaitem.conveyor.module.uv.tooltip=16 Stacks every second (as Cover)
+metaitem.conveyor.module.uv.tooltip=24 Stacks every second (as Cover)
+metaitem.conveyor.module.max.name=Conveyor Module (MAX)
+metaitem.conveyor.module.max.tooltip=32 Stacks every second (as Cover)
 
 metaitem.electric.piston.lv.name=Electric Piston (LV)
 metaitem.electric.piston.mv.name=Electric Piston (MV)
@@ -357,6 +364,7 @@ metaitem.electric.piston.iv.name=Electric Piston (IV)
 metaitem.electric.piston.luv.name=Electric Piston (LuV)
 metaitem.electric.piston.zpm.name=Electric Piston (ZPM)
 metaitem.electric.piston.uv.name=Electric Piston (UV)
+metaitem.electric.piston.max.name=Electric Piston (MAX)
 
 metaitem.robot.arm.lv.name=Robot Arm (LV)
 metaitem.robot.arm.lv.tooltip=Inserts at specified rates (as Cover)
@@ -374,6 +382,8 @@ metaitem.robot.arm.zpm.name=Robot Arm (ZPM)
 metaitem.robot.arm.zpm.tooltip=Inserts at specified rates (as Cover)
 metaitem.robot.arm.uv.name=Robot Arm (UV)
 metaitem.robot.arm.uv.tooltip=Inserts at specified rates (as Cover)
+metaitem.robot.arm.max.name=Robot Arm (MAX)
+metaitem.robot.arm.max.tooltip=Inserts at specified rates (as Cover)
 
 metaitem.field.generator.lv.name=Field Generator (LV)
 metaitem.field.generator.mv.name=Field Generator (MV)
@@ -383,6 +393,7 @@ metaitem.field.generator.iv.name=Field Generator (IV)
 metaitem.field.generator.luv.name=Field Generator (LuV)
 metaitem.field.generator.zpm.name=Field Generator (ZPM)
 metaitem.field.generator.uv.name=Field Generator (UV)
+metaitem.field.generator.max.name=Field Generator (MAX)
 
 metaitem.emitter.lv.name=Emitter (LV)
 metaitem.emitter.mv.name=Emitter (MV)
@@ -392,6 +403,7 @@ metaitem.emitter.iv.name=Emitter (IV)
 metaitem.emitter.luv.name=Emitter (LuV)
 metaitem.emitter.zpm.name=Emitter (ZPM)
 metaitem.emitter.uv.name=Emitter (UV)
+metaitem.emitter.max.name=Emitter (MAX)
 
 metaitem.sensor.lv.name=Sensor (LV)
 metaitem.sensor.mv.name=Sensor (MV)
@@ -401,6 +413,7 @@ metaitem.sensor.iv.name=Sensor (IV)
 metaitem.sensor.luv.name=Sensor (LuV)
 metaitem.sensor.zpm.name=Sensor (ZPM)
 metaitem.sensor.uv.name=Sensor (UV)
+metaitem.sensor.max.name=Sensor (MAX)
 
 metaitem.tool.datastick.name=Data Stick
 metaitem.tool.datastick.tooltip=A Low Capacity Data Storage
@@ -413,11 +426,13 @@ metaitem.circuit.integrated.jei_description=JEI is only showing recipes for the 
 
 #CIRCUITS LOCALIZATION
 metaitem.boule.silicon.name=Silicon Boule
-metaitem.boule.glowstone.name=Glowstone-doped Boule
-metaitem.boule.naquadah.name=Naquadah-doped Boule
+metaitem.boule.glowstone.name=Glowstone-Doped Boule
+metaitem.boule.naquadah.name=Naquadah-Doped Boule
+metaitem.boule.draconium.name=Draconium-Doped Boule
 metaitem.wafer.silicon.name=Silicon Wafer
-metaitem.wafer.glowstone.name=Glowstone-doped Wafer
-metaitem.wafer.naquadah.name=Naquadah-doped Wafer
+metaitem.wafer.glowstone.name=Glowstone-Doped Wafer
+metaitem.wafer.naquadah.name=Naquadah-Doped Wafer
+metaitem.wafer.draconium.name=Draconium-Doped Wafer
 
 metaitem.board.coated.name=Coated Circuit Board
 metaitem.board.epoxy.name=Epoxy Circuit Board
@@ -512,6 +527,7 @@ metaitem.neutron_reflector=Neutron Reflector
 metaitem.component.sawblade.diamond.name=Diamond Sawblade
 metaitem.component.grinder.diamond.name=Diamond Grinding Head
 metaitem.component.grinder.tungsten.name=Tungsten Grinding Head
+metaitem.component.grinder.osmium.name=Osmium Grinding Head
 
 metaitem.ingot.mixed_metal.name=Mixed Metal Ingot
 metaitem.plate.advanced_alloy.name=Advanced Alloy Plate
@@ -792,6 +808,9 @@ item.material.oreprefix.ore=%s Ore
 item.material.oreprefix.crushedCentrifuged=Centrifuged %s Ore
 item.material.oreprefix.crushedPurified=Purified %s Ore
 item.material.oreprefix.crushed=Crushed %s Ore
+item.material.oreprefix.crushedCharged=Star-Charged %s Ore
+item.material.oreprefix.crushedImbibed=Essence-Imbibed %s Ore
+item.material.oreprefix.crushedEnriched=Mana-Enriched %s Ore
 item.material.oreprefix.shard=
 item.material.oreprefix.clump=
 item.material.oreprefix.reduced=
@@ -1696,6 +1715,8 @@ tile.wire_coil.naquadah.name=Naquadah Coil Block
 tile.wire_coil.naquadah_alloy.name=Naquadah Alloy Coil Block
 tile.wire_coil.superconductor.name=Superconducting Coil Block
 tile.wire_coil.fusion_coil.name=Fusion Coil Block
+tile.wire_coil.awakened_draconium.name=Awakened Draconium Coil Block
+tile.wire_coil.ultimate_coil.name=Ultimate Coil Block
 
 # Warning sign blocks
 tile.warning_sign.yellow_stripes.name=Yellow Stripes Block
@@ -1782,6 +1803,8 @@ gregtech.machine.steel_chest.name=Steel Chest
 gregtech.machine.stainless_steel_chest.name=Stainless Steel Chest
 gregtech.machine.titanium_chest.name=Titanium Chest
 gregtech.machine.tungstensteel_chest.name=Tungstensteel Chest
+gregtech.machine.osmium_chest.name=Tungstensteel Chest
+gregtech.machine.darmstadtium_chest.name=Darmstadtium  Chest
 gregtech.machine.locked_safe.name=Locked Safe
 
 gregtech.machine.locked_safe.malfunctioning=§cMalfunctioning!

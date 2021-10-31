@@ -90,7 +90,12 @@ public enum MaterialIconType {
     pipeSmall,
     pipeMedium,
     pipeLarge,
-    pipeHuge;
+    pipeHuge,
+
+    //ADDED BY TECHNETIUM
+    crushedCharged, // Astral Sorcery
+    crushedImbibed, // Blood Magic
+    crushedEnriched;
 
     public static final ImmutableMap<String, MaterialIconType> values;
 

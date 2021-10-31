@@ -43,7 +43,7 @@ public class MetaItem1 extends MaterialMetaItem {
             OrePrefix.crushed, OrePrefix.crushedPurified, OrePrefix.crushedCentrifuged, OrePrefix.gem, OrePrefix.nugget,
             OrePrefix.ingot, OrePrefix.ingotHot, OrePrefix.plate, OrePrefix.plateDense, OrePrefix.stick, OrePrefix.lens,
             OrePrefix.bolt, OrePrefix.screw, OrePrefix.ring, OrePrefix.foil,
-            null, null, null, null, null, null, null, null, null, null, null, null);
+            OrePrefix.crushedCharged, OrePrefix.crushedImbibed, OrePrefix.crushedEnriched, null, null, null, null, null, null, null, null, null);
         registerPurifyRecipes();
     }
 
@@ -110,6 +110,7 @@ public class MetaItem1 extends MaterialMetaItem {
         SHAPE_EXTRUDERS[19] = SHAPE_EXTRUDER_SAW = addItem(371, "shape.extruder.saw");
         SHAPE_EXTRUDERS[20] = SHAPE_EXTRUDER_GEAR = addItem(372, "shape.extruder.gear");
         SHAPE_EXTRUDERS[21] = SHAPE_EXTRUDER_BOTTLE = addItem(373, "shape.extruder.bottle");
+        SHAPE_EXTRUDERS[22] = SHAPE_EXTRUDER_GEAR_SMALL = addItem(374, "shape.extruder.gear.small");
 
         SPRAY_EMPTY = addItem(402, "spray.empty")
             .setMaterialInfo(new ItemMaterialInfo(new MaterialStack(Materials.Tin, OrePrefix.plate.materialAmount * 2L), new MaterialStack(Materials.Redstone, OrePrefix.dust.materialAmount)));
@@ -172,17 +173,18 @@ public class MetaItem1 extends MaterialMetaItem {
         ENERGY_LAPOTRONIC_ORB = addItem(597, "energy.lapotronicorb").addComponents(ElectricStats.createRechargeableBattery(100000000, 5)).setUnificationData(OrePrefix.battery, MarkerMaterials.Tier.Ultimate).setModelAmount(8);
         ENERGY_LAPOTRONIC_ORB2 = addItem(598, "energy.lapotronicorb2").addComponents(ElectricStats.createRechargeableBattery(1000000000, 6)).setUnificationData(OrePrefix.battery, MarkerMaterials.Tier.Ultimate).setModelAmount(8);
 
-        ZPM = addItem(599, "zpm").addComponents(ElectricStats.createBattery(2000000000000L, 7, false)).setModelAmount(8);
-        ZPM2 = addItem(605, "zpm2").addComponents(ElectricStats.createRechargeableBattery(Long.MAX_VALUE, 8)).setModelAmount(8);
+        ZPM = addItem(753, "zpm").addComponents(ElectricStats.createBattery(2000000000000L, 7, false)).setModelAmount(8);
+        ZPM2 = addItem(754, "zpm2").addComponents(ElectricStats.createRechargeableBattery(Long.MAX_VALUE, 8)).setModelAmount(8);
 
         ELECTRIC_MOTOR_LV = addItem(600, "electric.motor.lv");
         ELECTRIC_MOTOR_MV = addItem(601, "electric.motor.mv");
         ELECTRIC_MOTOR_HV = addItem(602, "electric.motor.hv");
         ELECTRIC_MOTOR_EV = addItem(603, "electric.motor.ev");
         ELECTRIC_MOTOR_IV = addItem(604, "electric.motor.iv");
-        ELECTRIC_MOTOR_LUV = addItem(606, "electric.motor.luv");
-        ELECTRIC_MOTOR_ZPM = addItem(607, "electric.motor.zpm");
-        ELECTRIC_MOTOR_UV = addItem(608, "electric.motor.uv");
+        ELECTRIC_MOTOR_LUV = addItem(605, "electric.motor.luv");
+        ELECTRIC_MOTOR_ZPM = addItem(606, "electric.motor.zpm");
+        ELECTRIC_MOTOR_UV = addItem(607, "electric.motor.uv");
+        ELECTRIC_MOTOR_MAX = addItem(608, "electric.motor.uv");
 
         PUMPS[0] = ELECTRIC_PUMP_LV = addItem(610, "electric.pump.lv");
         PUMPS[1] = ELECTRIC_PUMP_MV = addItem(611, "electric.pump.mv");
@@ -192,6 +194,7 @@ public class MetaItem1 extends MaterialMetaItem {
         PUMPS[5] = ELECTRIC_PUMP_LUV = addItem(615, "electric.pump.luv");
         PUMPS[6] = ELECTRIC_PUMP_ZPM = addItem(616, "electric.pump.zpm");
         PUMPS[7] = ELECTRIC_PUMP_UV = addItem(617, "electric.pump.uv");
+        PUMPS[8] = ELECTRIC_PUMP_MAX = addItem(618, "electric.pump.max");
 
         RUBBER_DROP = addItem(627, "rubber_drop").setBurnValue(200);
 
@@ -207,6 +210,7 @@ public class MetaItem1 extends MaterialMetaItem {
         CONVEYOR_MODULE_LUV = addItem(635, "conveyor.module.luv");
         CONVEYOR_MODULE_ZPM = addItem(636, "conveyor.module.zpm");
         CONVEYOR_MODULE_UV = addItem(637, "conveyor.module.uv");
+        CONVEYOR_MODULE_MAX = addItem(638, "conveyor.module.max");
 
         ELECTRIC_PISTON_LV = addItem(640, "electric.piston.lv");
         ELECTRIC_PISTON_MV = addItem(641, "electric.piston.mv");
@@ -216,6 +220,7 @@ public class MetaItem1 extends MaterialMetaItem {
         ELECTRIC_PISTON_LUV = addItem(645, "electric.piston.luv");
         ELECTRIC_PISTON_ZPM = addItem(646, "electric.piston.zpm");
         ELECTRIC_PISTON_UV = addItem(647, "electric.piston.uv");
+        ELECTRIC_PISTON_MAX = addItem(648, "electric.piston.max");
 
         ROBOT_ARM_LV = addItem(650, "robot.arm.lv");
         ROBOT_ARM_MV = addItem(651, "robot.arm.mv");
@@ -225,6 +230,7 @@ public class MetaItem1 extends MaterialMetaItem {
         ROBOT_ARM_LUV = addItem(655, "robot.arm.luv");
         ROBOT_ARM_ZPM = addItem(656, "robot.arm.zpm");
         ROBOT_ARM_UV = addItem(657, "robot.arm.uv");
+        ROBOT_ARM_MAX = addItem(658, "robot.arm.max");
 
         FIELD_GENERATOR_LV = addItem(670, "field.generator.lv");
         FIELD_GENERATOR_MV = addItem(671, "field.generator.mv");
@@ -234,6 +240,7 @@ public class MetaItem1 extends MaterialMetaItem {
         FIELD_GENERATOR_LUV = addItem(675, "field.generator.luv");
         FIELD_GENERATOR_ZPM = addItem(676, "field.generator.zpm");
         FIELD_GENERATOR_UV = addItem(677, "field.generator.uv");
+        FIELD_GENERATOR_MAX = addItem(678, "field.generator.max");
 
         EMITTER_LV = addItem(680, "emitter.lv");
         EMITTER_MV = addItem(681, "emitter.mv");
@@ -243,6 +250,7 @@ public class MetaItem1 extends MaterialMetaItem {
         EMITTER_LUV = addItem(685, "emitter.luv");
         EMITTER_ZPM = addItem(686, "emitter.zpm");
         EMITTER_UV = addItem(687, "emitter.uv");
+        EMITTER_MAX = addItem(688, "emitter.max");
 
         SENSOR_LV = addItem(690, "sensor.lv");
         SENSOR_MV = addItem(691, "sensor.mv");
@@ -252,6 +260,7 @@ public class MetaItem1 extends MaterialMetaItem {
         SENSOR_LUV = addItem(695, "sensor.luv");
         SENSOR_ZPM = addItem(696, "sensor.zpm");
         SENSOR_UV = addItem(697, "sensor.uv");
+        SENSOR_MAX = addItem(698, "sensor.max");
 
         TOOL_DATA_STICK = addItem(708, "tool.datastick");
         TOOL_DATA_ORB = addItem(707, "tool.dataorb");
